@@ -1,0 +1,146 @@
+@page
+@model BingRewardsBot.Pages.IndexModel
+@{
+    ViewData["Title"] = "Bing Rewards Automation";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bing Rewards Automation</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="brand">
+                <div class="logo">BR</div>
+                <div>
+                    <h1>Bing Rewards Bot</h1>
+                    <p class="subtitle">Automated desktop &amp; mobile searches</p>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="status-badge" id="statusBadge">
+                    <span class="status-dot idle" id="statusDot"></span>
+                    <span id="statusText">Idle</span>
+                </div>
+                <button class="theme-btn" id="themeBtn" title="Toggle theme" aria-label="Toggle theme">🌙</button>
+            </div>
+        </header>
+
+        <main class="grid">
+            <section class="card form-card">
+                <h2>Configuration</h2>
+                <form id="botForm" autocomplete="off">
+                    <div class="field">
+                        <label for="email">Microsoft Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@outlook.com" required>
+                    </div>
+                    <div class="field">
+                        <label for="password">Microsoft Password</label>
+                        <input type="password" id="password" name="password" placeholder="Required on first login">
+                        <small>Saved session reused after first successful login</small>
+                    </div>
+                    <div class="row-2">
+                        <div class="field">
+                            <label for="desktopCount">Desktop Searches</label>
+                            <input type="number" id="desktopCount" name="desktop_count" min="0" max="999" value="30">
+                        </div>
+                        <div class="field">
+                            <label for="mobileCount">Mobile Searches</label>
+                            <input type="number" id="mobileCount" name="mobile_count" min="0" max="999" value="20">
+                        </div>
+                    </div>
+                    <div class="field toggle-field">
+                        <label class="toggle">
+                            <input type="checkbox" id="headless" name="headless" @(Model.DefaultHeadless ? "checked" : "")>
+                            <span class="slider"></span>
+                        </label>
+                        <span>Headless mode</span>
+                        <small>Disable for first login / 2FA verification</small>
+                    </div>
+                    <div class="actions">
+                        <button type="submit" class="btn btn-primary" id="btnStart">Start</button>
+                        <button type="button" class="btn btn-danger" id="btnStop" disabled>Stop</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="card stats-card">
+                <h2>Progress</h2>
+                <div class="stat-block">
+                    <div class="stat-header">
+                        <span>Desktop</span>
+                        <span id="desktopLabel">0 / 0</span>
+                    </div>
+                    <div class="progress-track">
+                        <div class="progress-fill desktop" id="desktopBar" style="width: 0%"></div>
+                    </div>
+                </div>
+                <div class="stat-block">
+                    <div class="stat-header">
+                        <span>Mobile</span>
+                        <span id="mobileLabel">0 / 0</span>
+                    </div>
+                    <div class="progress-track">
+                        <div class="progress-fill mobile" id="mobileBar" style="width: 0%"></div>
+                    </div>
+                </div>
+                <div class="counters">
+                    <div class="counter">
+                        <span class="counter-value" id="desktopDone">0</span>
+                        <span class="counter-label">Desktop done</span>
+                    </div>
+                    <div class="counter">
+                        <span class="counter-value" id="mobileDone">0</span>
+                        <span class="counter-label">Mobile done</span>
+                    </div>
+                    <div class="counter">
+                        <span class="counter-value" id="phaseDisplay">—</span>
+                        <span class="counter-label">Phase</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card console-card">
+                <div class="console-header">
+                    <h2>Live Logs</h2>
+                    <div class="console-actions">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" id="autoScroll" checked> Auto-scroll
+                        </label>
+                        <button type="button" class="btn btn-ghost btn-sm" id="btnClearLogs">Clear</button>
+                    </div>
+                </div>
+                <div class="console" id="logConsole"></div>
+            </section>
+        </main>
+    </div>
+
+    <div id="toastContainer" class="toast-container"></div>
+
+    <script>
+        window.DEFAULT_HEADLESS = @(Model.DefaultHeadless.ToString().ToLower());
+
+        (function () {
+            const html = document.documentElement;
+            const btn = document.getElementById('themeBtn');
+            const saved = localStorage.getItem('theme') || 'light';
+            html.setAttribute('data-theme', saved);
+            btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+            btn.addEventListener('click', function () {
+                const current = html.getAttribute('data-theme');
+                const next = current === 'dark' ? 'light' : 'dark';
+                html.setAttribute('data-theme', next);
+                localStorage.setItem('theme', next);
+                btn.textContent = next === 'dark' ? '☀️' : '🌙';
+            });
+        })();
+    </script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

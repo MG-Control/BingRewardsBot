@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DiskD\\Python\\BingRewardsBot-DotNet8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|BingRewardsBot\\BingRewardsBot.csproj|c:\\diskd\\python\\bingrewardsbot-dotnet8\\bingrewardsbot\\services\\bingrewardsbotrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|BingRewardsBot\\BingRewardsBot.csproj|solutionrelative:bingrewardsbot\\services\\bingrewardsbotrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|BingRewardsBot\\BingRewardsBot.csproj|c:\\diskd\\python\\bingrewardsbot-dotnet8\\bingrewardsbot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|BingRewardsBot\\BingRewardsBot.csproj|solutionrelative:bingrewardsbot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|BingRewardsBot\\BingRewardsBot.csproj|c:\\diskd\\python\\bingrewardsbot-dotnet8\\bingrewardsbot\\search_terms.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|BingRewardsBot\\BingRewardsBot.csproj|solutionrelative:bingrewardsbot\\search_terms.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|BingRewardsBot\\BingRewardsBot.csproj|c:\\diskd\\python\\bingrewardsbot-dotnet8\\bingrewardsbot\\services\\bingrewardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|BingRewardsBot\\BingRewardsBot.csproj|solutionrelative:bingrewardsbot\\services\\bingrewardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|BingRewardsBot\\BingRewardsBot.csproj|c:\\diskd\\python\\bingrewardsbot-dotnet8\\bingrewardsbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|BingRewardsBot\\BingRewardsBot.csproj|solutionrelative:bingrewardsbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|BingRewardsBot\\BingRewardsBot.csproj|c:\\diskd\\python\\bingrewardsbot-dotnet8\\bingrewardsbot\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|BingRewardsBot\\BingRewardsBot.csproj|solutionrelative:bingrewardsbot\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|BingRewardsBot\\BingRewardsBot.csproj|c:\\diskd\\python\\bingrewardsbot-dotnet8\\bingrewardsbot\\bingrewardshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|BingRewardsBot\\BingRewardsBot.csproj|solutionrelative:bingrewardsbot\\bingrewardshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\DiskD\\Python\\BingRewardsBot-DotNet8\\BingRewardsBot\\appsettings.json",
+              "RelativeDocumentMoniker": "BingRewardsBot\\appsettings.json",
+              "ToolTip": "C:\\DiskD\\Python\\BingRewardsBot-DotNet8\\BingRewardsBot\\appsettings.json",
+              "RelativeToolTip": "BingRewardsBot\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-04T11:49:49.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BingRewardsBotRunner.cs",
+              "DocumentMoniker": "C:\\DiskD\\Python\\BingRewardsBot-DotNet8\\BingRewardsBot\\Services\\BingRewardsBotRunner.cs",
+              "RelativeDocumentMoniker": "BingRewardsBot\\Services\\BingRewardsBotRunner.cs",
+              "ToolTip": "C:\\DiskD\\Python\\BingRewardsBot-DotNet8\\BingRewardsBot\\Services\\BingRewardsBotRunner.cs",
+              "RelativeToolTip": "BingRewardsBot\\Services\\BingRewardsBotRunner.cs",
+              "ViewState": "AgIAACoDAAAAAAAAAAAYwCoDAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T11:49:11.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "search_terms.txt",
+              "DocumentMoniker": "C:\\DiskD\\Python\\BingRewardsBot-DotNet8\\BingRewardsBot\\search_terms.txt",
+              "RelativeDocumentMoniker": "BingRewardsBot\\search_terms.txt",
+              "ToolTip": "C:\\DiskD\\Python\\BingRewardsBot-DotNet8\\BingRewardsBot\\search_terms.txt",
+              "RelativeToolTip": "BingRewardsBot\\search_terms.txt",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAvwKIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-06-04T11:49:08.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BingRewardsService.cs",
+              "DocumentMoniker": "C:\\DiskD\\Python\\BingRewardsBot-DotNet8\\BingRewardsBot\\Services\\BingRewardsService.cs",
+              "RelativeDocumentMoniker": "BingRewardsBot\\Services\\BingRewardsService.cs",
+              "ToolTip": "C:\\DiskD\\Python\\BingRewardsBot-DotNet8\\BingRewardsBot\\Services\\BingRewardsService.cs",
+              "RelativeToolTip": "BingRewardsBot\\Services\\BingRewardsService.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAqwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T07:41:10.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\DiskD\\Python\\BingRewardsBot-DotNet8\\BingRewardsBot\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "BingRewardsBot\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\DiskD\\Python\\BingRewardsBot-DotNet8\\BingRewardsBot\\Pages\\Index.cshtml",
+              "RelativeToolTip": "BingRewardsBot\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-03T07:38:17.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BingRewardsHub.cs",
+              "DocumentMoniker": "C:\\DiskD\\Python\\BingRewardsBot-DotNet8\\BingRewardsBot\\BingRewardsHub.cs",
+              "RelativeDocumentMoniker": "BingRewardsBot\\BingRewardsHub.cs",
+              "ToolTip": "C:\\DiskD\\Python\\BingRewardsBot-DotNet8\\BingRewardsBot\\BingRewardsHub.cs",
+              "RelativeToolTip": "BingRewardsBot\\BingRewardsHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T07:38:02.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DiskD\\Python\\BingRewardsBot-DotNet8\\BingRewardsBot\\Program.cs",
+              "RelativeDocumentMoniker": "BingRewardsBot\\Program.cs",
+              "ToolTip": "C:\\DiskD\\Python\\BingRewardsBot-DotNet8\\BingRewardsBot\\Program.cs",
+              "RelativeToolTip": "BingRewardsBot\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T07:37:59.978Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
