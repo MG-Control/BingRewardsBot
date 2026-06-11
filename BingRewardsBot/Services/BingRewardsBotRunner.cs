@@ -1,5 +1,6 @@
 using BingRewardsBot.Models;
 using Microsoft.Playwright;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -131,7 +132,8 @@ Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3, 4, 5] });
         _password = password;
         _desktopCount = Math.Max(0, desktopCount);
         _mobileCount = Math.Max(0, mobileCount);
-        _headless = headless;
+        // Force headless mode on Linux since X server may not be available
+        _headless = headless || RuntimeInformation.IsOSPlatform(OSPlatform.Linux);
         _config = config;
         _logCallback = logCallback;
         _progressCallback = progressCallback;
