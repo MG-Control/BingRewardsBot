@@ -17,6 +17,7 @@ app.UseStaticFiles();
 app.UseRouting();
 app.MapRazorPages();
 app.MapHub<BingRewardsHub>("/bingRewardsHub");
+
 app.MapGet("/api/status", (BotState state) =>
 {
     var s = state.GetStatus();
